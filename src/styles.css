@@ -19,6 +19,7 @@
 }
 
 #buttonBar {
+    margin-right:20px;
     background-color: rgb(209, 209, 209);
     width: 200px;
     height:45px;
@@ -50,22 +51,28 @@
 
 
 #optionsBox {
-    padding: 10px;
     box-shadow: 10px black;
     height: auto;
+    width:200px;
     position: absolute;
     border:1px solid black;
+    box-shadow: 0px 3px 3px  black;
+    background-color: white;
+    right:20;
+}
 
+.menuOptions:hover {
+    background-color: rgb(212, 212, 211);
 }
 
 .menuOptions {
+    padding: 5px 0px 5px 5px;
+    width:100%;
     display: inline-block;
     font-size: 17px;
     text-decoration: none;
-    right:0;
-    height: 20px;
-    width:100%;
-    padding: 5px;
+    height: 30px;
+    text-align: left;
     position: relative;
     z-index: 1;
 }
